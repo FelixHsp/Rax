@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    [
+      "build-plugin-rax-app",
+      {
+        "targets": ["web", "weex", "kraken", "miniapp", "wechat-miniprogram"]
+      }
+    ],
+    "build-plugin-rax-ssr",
+    [
+			"build-plugin-rax-pwa",
+			{
+        "snapshot": true,
+        "cacheId": "MyAPP",
+        "skipWaiting": true,
+        "clientsClaim": false,
+        "preCacheUrlList": [],
+        "ignorePatternList": ["/my-app/ignore.js/i"],
+        "savedCachePatternList": ["/my-app/bundle.js/i"],
+        "unregister": false,
+        "comboPattern": "",
+        "comboSplitSeparator": ",",
+        "htmlLoadingTimeout": 10000
+			}
+		]
+  ]
+}

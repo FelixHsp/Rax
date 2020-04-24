@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "name": "home",
+      "source": "pages/Home/index"
+    }
+  ],
+  "historyType": "browser",
+  "hydrate": true,
+  "window": {
+    "title": "Rax App"
+  }
+}
