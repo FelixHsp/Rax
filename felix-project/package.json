@@ -7,6 +7,7 @@
     "lint": "eslint --ext .js --ext .jsx ./"
   },
   "dependencies": {
+    "debounce-text-input": "^1.0.3",
     "driver-universal": "^3.0.0",
     "rax": "^1.1.0",
     "rax-app": "^2.0.0",
@@ -14,9 +15,13 @@
     "rax-find-dom-node": "^1.0.1",
     "rax-image": "^2.0.0",
     "rax-link": "^1.0.1",
+    "rax-slider": "^2.3.2",
     "rax-text": "^1.0.0",
+    "rax-textinput": "^1.2.1",
     "rax-view": "^1.0.0",
-    "universal-animation": "^1.1.2"
+    "rax-xslider": "^1.0.7",
+    "universal-animation": "^1.1.2",
+    "uuid": "^8.2.0"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.0",

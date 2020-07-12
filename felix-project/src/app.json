@@ -7,6 +7,14 @@
     {
       "path": "/domTest",
       "source": "pages/DomTest/index"
+    },
+    {
+      "path": "/searchInput",
+      "source": "pages/SearchInput/index"
+    },
+    {
+      "path": "/mySearch",
+      "source": "pages/MySearch/index"
     }
   ],
   "window": {
