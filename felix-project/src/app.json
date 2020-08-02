@@ -15,6 +15,14 @@
     {
       "path": "/mySearch",
       "source": "pages/MySearch/index"
+    },
+    {
+      "path": "/myRef",
+      "source": "pages/MyRef/index"
+    },
+    {
+      "path": "/waterFall",
+      "source": "pages/WaterFall/index"
     }
   ],
   "window": {
