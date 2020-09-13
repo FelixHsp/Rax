@@ -6874,9 +6874,9 @@ nice-try@^1.0.4:
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@0.9.0:
   version "0.9.0"
@@ -8650,6 +8650,19 @@ rax-recyclerview@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/rax-recyclerview/-/rax-recyclerview-1.3.0.tgz#fe48ec2b75c8129c3ce8f6625899fb53d9ad9081"
   integrity sha512-Y4PPOFsphkdLggp97hy1Ok+b3Y8Je0p3VVDsExqLFHHzRNTFpvvg1Q9lDD3T+k4I9g+f2W5o06I1VWbZGKI07g==
+  dependencies:
+    prop-types "^15.7.2"
+    rax-children "^1.0.0"
+    rax-find-dom-node "^1.0.0"
+    rax-refreshcontrol "^1.0.0"
+    rax-scrollview "^3.0.0"
+    rax-view "^1.0.2"
+    universal-env "^3.0.0"
+
+rax-recyclerview@^1.3.0:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/rax-recyclerview/-/rax-recyclerview-1.3.2.tgz#c90c518349824f220ab19d5da4934a039e3e475c"
+  integrity sha512-E6O5bJNj58UUn6RmFQRdQAX7dIRLKHYv7O1sFzMK3Bl6On0JOTL4dKlfWGypglg2ar17Zqp0+DopA3v5ARtT4Q==
   dependencies:
     prop-types "^15.7.2"
     rax-children "^1.0.0"
