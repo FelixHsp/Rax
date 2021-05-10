@@ -8378,9 +8378,9 @@ querystring@0.2.0, querystring@^0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
@@ -8659,6 +8659,19 @@ rax-recyclerview@^1.0.0:
     rax-view "^1.0.2"
     universal-env "^3.0.0"
 
+rax-recyclerview@^1.3.0:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/rax-recyclerview/-/rax-recyclerview-1.3.5.tgz#38cda4edd731584ec3dc0ed9305a37ec1957c3f2"
+  integrity sha512-egyG5saD3SZAutRjkgL5FAmVAETWRHSMXSQEgNWjfnIpPEsQDcKOJeCRsUhUcHWsggMU2NM6G3i9nkiQUboKUw==
+  dependencies:
+    prop-types "^15.7.2"
+    rax-children "^1.0.0"
+    rax-find-dom-node "^1.0.0"
+    rax-refreshcontrol "^1.0.0"
+    rax-scrollview "^3.3.3"
+    rax-view "^2.0.0"
+    universal-env "^3.0.0"
+
 rax-refreshcontrol@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/rax-refreshcontrol/-/rax-refreshcontrol-1.0.1.tgz#28cda117b529e7cc8aa22e38f0312155d08dce78"
@@ -8688,6 +8701,18 @@ rax-scrollview@^3.0.0:
     rax-refreshcontrol "^1.0.0"
     rax-text "^1.0.1"
     rax-view "^1.1.0"
+    universal-env "^3.0.0"
+
+rax-scrollview@^3.3.3:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/rax-scrollview/-/rax-scrollview-3.4.2.tgz#5850ffbbd326167ef182ff80eafd682f6aca5414"
+  integrity sha512-+Z/tAss3P1NF7+FsyJ4T127TX1QBxASEQAQXdFCl2B2Q9DWHVqJ13H79UorqByXdEwsfHCCR1rDhwBhRv3hBTA==
+  dependencies:
+    classnames "^2.2.6"
+    rax-get-element-by-id "^1.0.0"
+    rax-refreshcontrol "^1.0.0"
+    rax-text "^2.0.0"
+    rax-view "^2.0.0"
     universal-env "^3.0.0"
 
 rax-server-renderer@^1.0.0, rax-server-renderer@^1.0.1:
@@ -8724,6 +8749,13 @@ rax-text@^1.0.0, rax-text@^1.0.1, rax-text@^1.0.2:
   dependencies:
     universal-env "^3.0.0"
 
+rax-text@^2.0.0:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/rax-text/-/rax-text-2.0.7.tgz#9b177adeb64c16cc3e6f83dec9f31fb6af60e5ba"
+  integrity sha512-endWMUlc9eFauae17rgFTZIDZKcJGBrLC6xKLoqj0oem7C4QUhc5E5R3j97JkLQfhkEDDQVnZYIQ1OIaGMWXzw==
+  dependencies:
+    universal-env "^3.0.0"
+
 rax-textinput@^1.2.1, rax-textinput@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/rax-textinput/-/rax-textinput-1.3.1.tgz#7ed713cd0ba10c8c3d38cd4f113d06679db3827f"
@@ -8752,6 +8784,14 @@ rax-view@^1.0.0, rax-view@^1.0.1, rax-view@^1.0.2, rax-view@^1.1.0, rax-view@^1.
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-1.1.2.tgz#3fb43a007ab1a0fbc14c633a2aaf46f16adede5a"
   integrity sha512-HYUDcOMcJ1uVfa5ITXDlJNyjT7ivQkJstlrUXC9agmFPh8HFk6ZRLtJilgMPFO4FXK7vmcA83UKTfmfCcFIUQw==
+  dependencies:
+    classnames "^2.2.6"
+    universal-env "^3.0.0"
+
+rax-view@^2.0.0:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-2.0.5.tgz#d9ad0728e8ebd40c1cfca834d7d00bf346d36bb7"
+  integrity sha512-+maHoNdogJuSvgAKSSI/KR9MUGAkufoF4wIFx/qSNjMYPLbESfzeQPjyrNi7s+UOLu4h9fozU7ibmkOV1e6sqw==
   dependencies:
     classnames "^2.2.6"
     universal-env "^3.0.0"
@@ -10428,9 +10468,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
